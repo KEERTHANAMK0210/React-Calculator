@@ -1,0 +1,133 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,700&display=swap');
+
+*{
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.container{
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  margin: 0 auto;
+  width: 800px;
+
+  text-align: center;
+  /* border: 1px solid #1011;  */
+  
+  /* border-radius: 2px; */
+
+/* .keypad{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-auto-rows: minmax(60px,auto);
+  }
+
+  .keypad button[name="/"], 
+.keypad button[name="*"], 
+.keypad button[name="-"], 
+.keypad button[name="+"], 
+.keypad button[name="="] {
+  color: #ffffff;
+  background-color: hsl(16, 67%, 52%);
+}
+
+input[type="text"]{
+  height: 60px;
+  width:796px;
+  background-color:silver;
+  color: #ffffff;
+  border: 0px;
+  text-align:right ;
+  font-size: 25px;
+  font-weight: 700px;
+  letter-spacing: 1px;
+}
+
+.zero{
+  grid-column: 3/1;
+} */ 
+
+
+
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,700&display=swap');
+
+*{
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.container{
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  margin: 0 auto;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 0 auto;
+  font-size: 24px;
+  align-items: center;
+  width: 900px;
+  height: 100px;
+  background:#e9dddd;
+  
+
+}
+
+td {
+  border: 1px solid #0e0e0e;
+  padding: 10px;
+  text-align: center;
+}
+
+input {
+  width:100%;
+  height: 50px;
+  font-size: 32px;
+  text-align: right;
+  border: none;
+  outline: none;
+  background-color: #6c6b6b;
+  color: #fff;
+}
+
+button {
+  
+  font-size: 24px;
+  background:#e9dddd;
+  border: none;
+  outline: none;
+  cursor: pointer;
+
+}
+button[name="/"] ,
+button[name="*"] ,
+button[name="-"] ,
+button[name="+"], 
+button[name="="] {
+  background-color:rgb(255, 153, 0);
+  color: #fff;
+  width: 100%;
+  height: 100%;
+}
+
+
+
+
+
